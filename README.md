@@ -1,2 +1,37 @@
-# bitly
- Скрипт сокращает ссылки
+# Обрезка ссылок с помощью Битли
+
+----------
+[TODO: Помогает сократить ссылки, а так же проверяет сколько было переходов по 
+ней]
+
+## Установка
+1. На вашей целевой машине должен быть установлен `Python 3.10` [Сайт Python (установщик).](https://www.python.org/downloads/)
+2. Зайти на сайт [Bitly](https://app.bitly.com). Зарегестрироваться, и получить Api-токен.
+
+После установки, и клонирования репозитория к себе зайдите в папку проекта используя терминал( linux, macos), коммандную строку (win).
+
+![img.png](img.png)
+
+Далее устанавливаем [виртуальное окружение](https://docs.python.org/3/library/venv.html)
+
+```commandline
+virtualenv venv
+```
+Если линукс
+```commandline Linux
+source venv/bin/activare
+```
+Если Windows
+```commandline
+venv/Scripts/activate.ps1
+```
+Далее установка необходимых библиотек.
+```commandline
+pip install -r requirements.txt
+```
+## Запуск
+```commandline
+python count_links.py
+```
+
+Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](dvmn.org).
