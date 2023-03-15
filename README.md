@@ -31,6 +31,9 @@ venv/Scripts/activate.ps1
 pip install -r requirements.txt
 ```
 ## Запуск
+После того, как все скачалось, в папке создаете файл `.env`, а в нем прописываете строку
+`BITLINK_TOKEN = "Сюда вставляете ваш токен"`.
+После 
 ```commandline
 python count_links.py
 ```
